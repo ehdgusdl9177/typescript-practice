@@ -6,7 +6,12 @@
   "author": "ehdgusdl9177 <k23129177@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node index.js",
-    "prestart": "tsc"
+    "start": "tsc-watch --onSuccess \" node dist/index.js\" "
+  },
+  "devDependencies": {
+    "tsc-watch": "^4.5.0"
+  },
+  "dependencies": {
+    "typescript": "^4.5.2"
   }
 }

@@ -1,0 +1,7 @@
+# yarn Intergrity file
+.yarn-intergrity
+
+# dotenv environment variavles file
+.env
+dist
+node_modules
