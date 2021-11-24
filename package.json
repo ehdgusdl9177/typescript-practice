@@ -1,0 +1,12 @@
+{
+  "name": "typescript-practice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ehdgusdl9177/typescript-practice.git",
+  "author": "ehdgusdl9177 <k23129177@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "prestart": "tsc"
+  }
+}
